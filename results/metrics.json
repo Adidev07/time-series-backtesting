@@ -1,0 +1,21 @@
+{
+  "project": "Leakage-Aware Demand Forecasting",
+  "validation": [
+    {
+      "alpha": 0.1,
+      "mean_rmse": 2.2639585262825848
+    },
+    {
+      "alpha": 10,
+      "mean_rmse": 2.3550849455978207
+    },
+    {
+      "alpha": 100,
+      "mean_rmse": 2.3788681417000563
+    }
+  ],
+  "selected_alpha": 0.1,
+  "test_rmse": 2.177684702825123,
+  "seasonal_naive_rmse": 2.8036451695137243,
+  "forecast_mode": "rolling one-step; observed prior test values allowed"
+}
